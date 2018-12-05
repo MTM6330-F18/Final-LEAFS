@@ -1,16 +1,20 @@
 // Hero image------------
 .site-header{
-    background-image: url(https://prod-foundation-forum.s3.amazonaws.com/uploads/part/part_image/3612/lumber.jpg);
-    background-position: center bottom;
+    background-image: url(../../img/FAQ-featuredimg.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .site-header .layout-hero {
-    min-height: 40vh;
+    min-height: 50vh;
 
     h1, h2 {
         color: white;
         font-size: 3rem;
     } 
+}
+
+.question .row .col-md-6 {
+    border: 1px solid black;
 }
