@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -352,6 +353,15 @@ article {
   .site-header .layout-hero h1, .site-header .layout-hero h2 {
     color: white;
     font-size: 3rem; }
+
+#questions .row .col-md-6 .question-box {
+  border:  1px solid white;
+  box-shadow: 2px 2px 2px 2px rgba(15, 58, 4, 0.6);
+  padding:  2rem;
+  height: 35rem; }
+  #questions .row .col-md-6 .question-box h3 {
+    padding-bottom: 2rem;
+    padding-top: 1rem; }
 
 /* Global Sass variables */
 /* Add styles here */

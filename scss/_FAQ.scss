@@ -14,3 +14,15 @@
         font-size: 3rem;
     } 
 }
+
+#questions .row .col-md-6 .question-box {
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px rgba(15, 58, 4, 0.6);
+    padding: 2rem;  
+    height: 35rem;
+
+    h3 {
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+}
