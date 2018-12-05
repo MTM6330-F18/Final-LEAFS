@@ -341,12 +341,20 @@ article {
 
 /* Global Sass variables */
 /* Add styles here */
-.navbar {
-  padding: .5rem 2.5rem; }
-
 .navbar-expand-lg .navbar-nav {
   justify-content: space-evenly;
   width: 100%; }
+
+.navbar .navbar-expand-lg .navbar-dark .bg-dark {
+  padding: 0 !important;
+  background-color: red; }
+
+.navbar-dark .navbar-nav .nav-link {
+  line-height: 3rem;
+  padding: 0rem 2rem; }
+
+#page-hero {
+  margin-bottom: 3rem; }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
   color: #fff;
