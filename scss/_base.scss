@@ -1,3 +1,29 @@
+/* Global variables */
+$primary: #006341; // set the primary color to AC Green
+$primary-80: #338267; // set the primary color to AC Green @60% tint
+$primary-60: #66A18D; // set the primary color to AC Green @60% tint
+$jumbotron-bg: #e5efec; // set the Jumbotron background to AC Green @10% tint
+$accent-color: #44b049; // set the accent color to New Growth Green Green
+$hr-border-color: #909390; // set the <hr> border color to AC Charcoal @50% tint
+$sidebar-color: #F8F9F8; // set sidebar background color to AC Charcoal @2% tint
+$text-color: #000; // set the base text color
+
+/* Fonts */
+@font-face {
+  font-family: "GothamBold";
+  src: url("../../fonts/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("../../fonts/GothamBook.ttf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("../../fonts/GothamMedium.ttf");
+}
+
 /* Baseline reset */
 html {
   box-sizing: border-box;
@@ -13,9 +39,10 @@ html {
 body {
   background-color: #feffff;
   color: rgba(0, 0, 0, 0.78);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: gothamBook, sans-serif;
+  // font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  //   'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
   font-size: 100%;
   line-height: 1.64rem;
   margin: 0;
@@ -32,5 +59,5 @@ h6 {
 }
 
 article {
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
 }
