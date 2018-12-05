@@ -346,8 +346,12 @@ article {
   width: 100%; }
 
 .navbar .navbar-expand-lg .navbar-dark .bg-dark {
+<<<<<<< HEAD
   padding: 0 !important;
   background-color: red; }
+=======
+  padding: 0 !important; }
+>>>>>>> c6a4967200215db581f972810e184409dace1dfa
 
 .navbar-dark .navbar-nav .nav-link {
   line-height: 3rem;
