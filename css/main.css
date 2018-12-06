@@ -300,16 +300,18 @@ template {
 /* Global variables */
 /* Fonts */
 @font-face {
-  font-family: "GothamBold";
-  src: url("../../fonts/GothamBold.ttf"); }
+  font-family: "Gotham Bold";
+  src: url("../../fonts/Gotham Bold.otf") format("opentype"); }
 
 @font-face {
-  font-family: "GothamBook";
-  src: url("../../fonts/GothamBook.ttf"); }
+  font-family: "Gotham Book";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/Gotham Book.otf") format("opentype"); }
 
 @font-face {
-  font-family: "GothamMedium";
-  src: url("../../fonts/GothamMedium.ttf"); }
+  font-family: "Gotham Medium";
+  src: url("../../fonts/Gotham Medium.otf") format("opentype"); }
 
 /* Baseline reset */
 html {
@@ -324,7 +326,7 @@ html {
 body {
   background-color: #feffff;
   color: rgba(0, 0, 0, 0.78);
-  font-family: gothamBook, sans-serif;
+  font-family: 'gotham Book', sans-serif;
   font-size: 100%;
   line-height: 1.64rem;
   margin: 0;
@@ -338,8 +340,31 @@ h5,
 h6 {
   color: rgba(0, 0, 0, 0.89); }
 
+h1, h2 {
+  font-family: 'Gotham Bold', sans-serif; }
+
 article {
   padding: 2rem 0.5rem; }
+
+.sidebar {
+  background-color: #F8F9F8;
+  margin-top: 30px; }
+  .sidebar article ul li {
+    list-style-type: square;
+    color: #66A18D; }
+    .sidebar article ul li a {
+      color: #000; }
+      .sidebar article ul li a:hover {
+        text-decoration: none;
+        color: #66A18D; }
+      .sidebar article ul li a strong {
+        color: #66A18D; }
+  .sidebar th, .sidebar td {
+    vertical-align: top; }
+    .sidebar th:nth-child(even), .sidebar td:nth-child(even) {
+      padding-left: 5px; }
+  .sidebar .open {
+    color: #44b049; }
 
 .site-header {
   background-image: url(https://prod-foundation-forum.s3.amazonaws.com/uploads/part/part_image/3612/lumber.jpg);
@@ -353,7 +378,6 @@ article {
     color: white;
     font-size: 3rem; }
 
-/* Global Sass variables */
 /* Add styles here */
 .navbar {
   position: fixed;
