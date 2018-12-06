@@ -1,22 +1,48 @@
 @import 'base';
 // Hero image------------
-header{
+header {
   background-image: url(../../img/home_top1.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-}
 
-header .hero {
-  height: auto;
-  min-height: 100vh;
-  width: 100%;
+  .hero {
+    min-height: 100vh;
+    width: 100%;
 
-  h1 {
-      color: white;
+    h1 {
+      color: #fff;
       font-size: 4rem;
       margin-bottom: 100px;
+    } 
   } 
+
+  .side-links {
+    position: absolute;
+    right: 0;
+    top: 40%;
+
+    .side-link {
+      background-color: $primary;
+      color: #fff;
+      text-align: center;
+      display: block;
+      padding: 20px;
+      margin: 15px 0;
+      max-height: 70px;
+      line-height: 1.2;
+
+
+      &:hover {
+        background-color: $accent-color;
+      }
+
+      span {
+        font-size: 70%;
+      }
+    }
+  }
+
 }
 
 h2, h4 {
@@ -38,4 +64,37 @@ h4 {
   p {
     margin-top: 1rem;
   }
+}
+
+#contact-form {
+  background-color: $jumbotron-bg;
+  padding: 20px;
+  margin-bottom: 30px;
+
+  .submit {
+    background-color: $primary;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: $accent-color;
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  header .hero {
+    min-height: 40vh;
+    max-height: 60vh;
+
+    h1 {
+      margin: 300px 0 0;
+    }
+  }
+
+  header .side-links {
+    position: relative;
+    padding-bottom: 30px;
+    margin: 0 5% 50%;
+  }  
 }

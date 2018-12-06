@@ -16,6 +16,7 @@
 <body>
   <header id="page-hero" class="md-20">
 
+    <!-- Navigation menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
 
@@ -56,13 +57,27 @@
       </div><!-- container -->
     </nav>
 
+    <!-- Title -->
     <section class="hero d-flex align-items-end">
       <div class="container">
         <h1>Interactive<br>Media<br>Design</h1>
       </div>
     </section>
+
+    <!-- Application links -->
+    <div class="side-links">
+      <a href="https://www.algonquincollege.com/future-students/campus-tours/" class="side-link" target="_blank">BOOK A
+        VISIT</a>
+      <a href="https://collegeapply.ontariocolleges.ca/Login?collegeCode=ALGO&programCode=6149X01F&lang=en" class="side-link"
+        target="_blank">APPLY
+        NOW</a>
+      <a href="https://algonquincollege.force.com/myACint/" class="side-link" target="_blank"><span>INTERNATIONAL
+          STUDENT</span><br>APPLY
+        NOW</a>
+    </div>
   </header>
 
+  <!-- Program summary: Dark green area -->
   <div class="container">
     <div class="row summary">
       <div class="col-md-4 offset-md-2">
@@ -80,6 +95,7 @@
     </div>
   </div>
 
+  <!-- Main contents -->
   <div class="container">
     <div class="row align-items-start">
       <div class="main-content col-md-9">
@@ -136,9 +152,43 @@
               </li>
             </ol>
           </article>
-        </div> <!-- row in contents section -->
+
+          <!-- Contact form -->
+          <div class="container">
+            <h2>Have a question?</h2>
+            <form action="" class="col-md-9" method="post" id="contact-form">
+              <div class="form-group">
+                <label label="control-label">First Name: *</label>
+                <input type="text" name="first-name" placeholder="Jane" class="form-control" autocomplete="off"
+                  required>
+              </div>
+              <div class="form-group">
+                <label label="control-label">Last Name: *</label>
+                <input type="text" name="last-name" placeholder="Doe" class="form-control" autocomplete="off" required>
+              </div>
+              <div class="form-group">
+                <label label="control-label">Email: *</label>
+                <input type="email" name="email" placeholder="Enter email" class="form-control" autocomplete="off"
+                  required>
+              </div>
+              <div class="form-group">
+                <label label="control-label">Phone:</label>
+                <input type="text" name="phone" placeholder="(613)123-1212" class="form-control" autocomplete="off">
+              </div>
+              <div class="form-group">
+                <label label="control-label">Message: *</label>
+                <textarea class="form-control" rows="5" placeholder="Type your question here..."></textarea>
+              </div>
+              <div class="form-group">
+                <label class="control-label"></label>
+                <button type="button" class="btn col-md-5 offset-md-3 submit">SUBMIT</button>
+              </div>
+            </form>
+          </div> <!-- contact form -->
+        </div>
       </div><!-- main section -->
 
+      <!-- Sidebar section -->
       <aside class="sidebar col-md-3" id="sidebar">
         <article>
           <h4>Program Availability</h4>
@@ -197,20 +247,9 @@
                 <strong>></strong></a></li>
           </ul>
         </article>
-      </aside> <!-- sidebar section -->
-    </div> <!-- main -->
-  </div>
-
-  <!-- Contact form -->
-  <div class="container">
-    <h2>Have a question?</h2>
-    <form action="" class="col-md-6" method="post" id="contact_form">
-      <div class="form-group">
-        <label label="control-label">First Name</label>
-        <input type="text" name="first-name" placeholder="First Name" class="form-control" required="">
-      </div>
-    </form>
-  </div>
+      </aside> <!-- Sidebar section -->
+    </div>
+  </div> <!-- Main contents -->
 
   <!-- Footer -->
   <footer class="site-footer bg-dark pt-3 pb-3">

@@ -41,26 +41,44 @@ h5,
 h6 {
   color: rgba(0, 0, 0, 0.89); }
 
-h1, h2 {
+h1 {
   font-family: 'Gotham Bold', sans-serif; }
 
 article {
   padding: 2rem 0.5rem; }
+
+a:hover {
+  text-decoration: none; }
 
 header {
   background-image: url(../../img/home_top1.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover; }
-
-header .hero {
-  height: auto;
-  min-height: 100vh;
-  width: 100%; }
-  header .hero h1 {
-    color: white;
-    font-size: 4rem;
-    margin-bottom: 100px; }
+  header .hero {
+    min-height: 100vh;
+    width: 100%; }
+    header .hero h1 {
+      color: #fff;
+      font-size: 4rem;
+      margin-bottom: 100px; }
+  header .side-links {
+    position: absolute;
+    right: 0;
+    top: 40%; }
+    header .side-links .side-link {
+      background-color: #006341;
+      color: #fff;
+      text-align: center;
+      display: block;
+      padding: 20px;
+      margin: 15px 0;
+      max-height: 70px;
+      line-height: 1.2; }
+      header .side-links .side-link:hover {
+        background-color: #44b049; }
+      header .side-links .side-link span {
+        font-size: 70%; }
 
 h2, h4 {
   color: #006341; }
@@ -76,3 +94,25 @@ h4 {
     color: #fff; }
   .summary p {
     margin-top: 1rem; }
+
+#contact-form {
+  background-color: #e5efec;
+  padding: 20px;
+  margin-bottom: 30px; }
+  #contact-form .submit {
+    background-color: #006341;
+    color: #fff;
+    border-radius: 0; }
+    #contact-form .submit:hover {
+      background-color: #44b049; }
+
+@media screen and (max-width: 480px) {
+  header .hero {
+    min-height: 40vh;
+    max-height: 60vh; }
+    header .hero h1 {
+      margin: 300px 0 0; }
+  header .side-links {
+    position: relative;
+    padding-bottom: 30px;
+    margin: 0 5% 50%; } }
