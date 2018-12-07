@@ -434,3 +434,6 @@ a:hover {
 footer .fab {
   font-size: 150%;
   padding-left: 1rem; }
+
+#footer {
+  background-color: #006341 !important; }
