@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Link for Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!-- Link for Font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/min/main.css">
   <title>Final LEAFS</title>
@@ -13,7 +17,9 @@
 
 
 <body>
-  
+ <!---------------------------------------------------------------------->
+ <!----------------------- Header Navigation  --------------------------->
+
   <header id="page-hero" class="site-header md-20">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -22,7 +28,8 @@
         <a class="navbar-brand" href="overview.html">
           <img src="./img/leafs-logo.png" width="45" height="45" alt="IMD LOGO">
         </a>
-
+        
+        <!----------------------- Professors page with Drop Menu  --------------------------->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,6 +45,8 @@
             <li class="nav-item ">
                 <a class="nav-link text-light" href="courses.html">COURSES</a>
             </li>
+
+            <!----------------------- Professors page with Drop Menu  --------------------------->
             <li class="nav-item  dropdown">
                 <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   PROFESSORS
@@ -47,14 +56,20 @@
                   <a class="dropdown-item" href="#">UX Design</a>
                   <a class="dropdown-item" href="#">Video Fundation</a>
                 </div>
-            </li>        
+            </li> <!-- Professors dropdown --> 
+            
+            
             <li class="nav-item">
               <a class="nav-link text-light" href="FAQ.html">FAQ</a>
             </li>
+
           </ul> <!-- navbar-nav -->
         </div><!-- collapse -->
       </div><!-- container -->
     </nav>
+
+    <!---------------------------------------------------------------------->
+    <!-----------------------Header  Hero Image  --------------------------->
 
     <section class="layout-hero d-flex align-items-center text-center">
       <div class="container">
@@ -70,13 +85,13 @@
     </section>
 
 </header>
-  
 
-
-
+<!------------------------------------------------------------------------------->
+<!-----------------------Container Questions & Sidebar --------------------------->
   <div class="container">
   <div class="main row align-items-start">
-
+    
+    <!---------------------- Questions-------------------->
     <div class="question col-md-9 " id="questions">
       <div class="row">
         <article class="col-md-6">
@@ -108,15 +123,30 @@
         </article>
       </div> <!-- row in question section -->
       </div><!-- question section -->
-
+      
+     <!---------------------- Sidebar -------------------->
       <aside class="sidebar col-md-3" id="sidebar">
-        <article>
-          <h3>Program Availability</h3>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-        </article>
+          <article>
+            <h4>Program Availability</h4>
+            <table>
+              <tr>
+                <th>Start Dates</th>
+                <th>Availability</th>
+              </tr>
+              <tr>
+                <td>2019 Jan.</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>2019 Sept.</td>
+                <td class="open">Open</td>
+              </tr>
+              <tr>
+                <td> 2020 Jan.</td>
+                <td class="open">Open</td>
+              </tr>
+            </table>
+          </article>
 
         <article>
           <h3>Fees & Expenses </h3>
@@ -140,42 +170,48 @@
         </article>
 
         <article>
-        <h3><strong>Related Programs</strong></h3>            
-        <li>
-          <a href="">Interactive Media Management >></a><br>
-          <a href="">Bachelor of Information Technology (Interactive Media Development) (Co-op) >></a><br>
-          <a href="">Graphic Deisgn >></a><br>
-          <a href="">Game Developement >></a><br>
-        </li>       
+          <h4>Related Programs</h4>
+          <ul>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/imm/">Interactive Media Management
+                <strong>></strong></a></li>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/bit-interactive-multimedia-and-design/">Bachelor
+                of Information Technology (Interactive Media Development) (Co-op) <strong>></strong></a></li>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/graphic-design/">Graphic Deisgn
+                <strong>></strong></a></li>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/game-development/">Game Developement
+                <strong>></strong></a></li>
+          </ul>
         </article>
         </aside> <!-- sidebar section -->      
   </div> <!-- main -->
   </div>
 
-  <footer class="site-footer bg-dark pt-3 pb-3">
+<!------------------------------------------------------------>
+<!-----------------------  Footer  --------------------------->
+  <footer id="footer" class="site-footer bg-dark pt-3 pb-3">
     <div class="container">
       <div class="row">
         <p class="text-light text-center mb-1 mt-1 col-md-6" >All contents &copy; 2018. All rights reserved.</p>
-      <section class="layout-social text-center my-1 col-md-6">
-        <a class="text-light px-1" href="www.facebook.com">
-          <i class="fab fa-facebook"></i>
-        </a>
-        <a class="text-light px-1" href="www.twitter.com">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a class="text-light px-1" href="www.linkedin.com">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a class="text-light px-1" href="www.github.com">
-          <i class="fab fa-github"></i>
-        </a>
-      </section>
+        <section class="layout-social text-center my-1 col-md-6">
+          <a class="text-light px-1" href="www.facebook.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a class="text-light px-1" href="www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="text-light px-1" href="www.linkedin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="text-light px-1" href="www.github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
       </div>
     </div>
   </footer>
 
 
-
+<!-- Link from bootstrap jquery and js -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
