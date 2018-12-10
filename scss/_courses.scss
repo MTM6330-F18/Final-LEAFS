@@ -15,8 +15,8 @@
 
         h1 {
             color: #fff;
-            font-size: 4rem;
-            margin-bottom: 300px;
+            font-size: 6rem;
+            margin-bottom: 200px;
             font-weight: bolder;
         }
     }
@@ -32,6 +32,18 @@
     margin-bottom: 100px;
 }
 
-@media (min-width: 768px) {
-    #banner {}
+@media screen and (max-width:480px) {
+    #banner {
+        width: 540px;
+
+        .hero {
+            min-height: 40vh;
+            max-height: 60vh;
+
+            h1 {
+                font-size: 4rem;
+                margin: 300px 0 0;
+            }
+        }
+    }
 }
