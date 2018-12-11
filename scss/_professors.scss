@@ -30,7 +30,8 @@ section {
   border-bottom: solid gainsboro 2px;
   padding-bottom: 10px;
   &:nth-child(2),
-  &:nth-child(3) {
+  &:nth-child(3),
+  &:nth-child(4) {
     padding-top: 20px;
   }
 
@@ -99,5 +100,17 @@ section {
     img {
       max-width: 150px;
     }
+  }
+}
+
+.interview {
+  margin-top: 20px;
+  h3 {
+    color: white;
+    padding: 5px;
+    background-color: grey;
+  }
+  h4 {
+    color: #006342;
   }
 }
