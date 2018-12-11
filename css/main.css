@@ -301,16 +301,18 @@ template {
 /* Global variables */
 /* Fonts */
 @font-face {
-  font-family: "GothamBold";
-  src: url("../../fonts/GothamBold.ttf"); }
+  font-family: "Gotham Bold";
+  src: url("../../fonts/Gotham Bold.otf") format("opentype"); }
 
 @font-face {
-  font-family: "GothamBook";
-  src: url("../../fonts/GothamBook.ttf"); }
+  font-family: "Gotham Book";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/Gotham Book.otf") format("opentype"); }
 
 @font-face {
-  font-family: "GothamMedium";
-  src: url("../../fonts/GothamMedium.ttf"); }
+  font-family: "Gotham Medium";
+  src: url("../../fonts/Gotham Medium.otf") format("opentype"); }
 
 /* Baseline reset */
 html {
@@ -325,7 +327,7 @@ html {
 body {
   background-color: #feffff;
   color: rgba(0, 0, 0, 0.78);
-  font-family: gothamBook, sans-serif;
+  font-family: 'gotham Book', sans-serif;
   font-size: 100%;
   line-height: 1.64rem;
   margin: 0;
@@ -339,8 +341,34 @@ h5,
 h6 {
   color: rgba(0, 0, 0, 0.89); }
 
+h1 {
+  font-family: 'Gotham Bold', sans-serif; }
+
 article {
   padding: 2rem 0.5rem; }
+
+a:hover {
+  text-decoration: none; }
+
+.sidebar {
+  background-color: #F8F9F8;
+  margin-top: 30px; }
+  .sidebar article ul li {
+    list-style-type: square;
+    color: #66A18D; }
+    .sidebar article ul li a {
+      color: #000; }
+      .sidebar article ul li a:hover {
+        text-decoration: none;
+        color: #66A18D; }
+      .sidebar article ul li a strong {
+        color: #66A18D; }
+  .sidebar th, .sidebar td {
+    vertical-align: top; }
+    .sidebar th:nth-child(even), .sidebar td:nth-child(even) {
+      padding-left: 5px; }
+  .sidebar .open {
+    color: #44b049; }
 
 .site-header {
   background-image: url(../../img/FAQ-featuredimg.jpg);
@@ -387,12 +415,12 @@ form {
     width: 65%;
     padding: 0 15px; }
 
-/* Global Sass variables */
-/* Add styles here */
+/* Navigation menu */
 .navbar {
   position: fixed;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  padding: 0; }
 
 .navbar-expand-lg .navbar-nav {
   justify-content: space-evenly;
@@ -402,12 +430,44 @@ form {
   padding: 0 !important; }
 
 .navbar-dark .navbar-nav .nav-link {
-  line-height: 3rem;
+  line-height: 60px;
   padding: 0rem 2rem; }
 
 #page-hero {
   margin-bottom: 3rem; }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .dropdown-item:hover {
   color: #fff;
   background-color: #44b049; }
+
+.navbar-brand img:hover {
+  opacity: 0.6; }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  /* Enable hover effect on dropdown menu */ }
+
+.dropdown-menu {
+  background: #343a40;
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  margin: 0; }
+  .dropdown-menu .dropdown-item {
+    display: inline-block;
+    color: #fff;
+    border-bottom: 1px solid #666;
+    opacity: 0.8;
+    height: 100%;
+    padding: 10px;
+    margin: 0; }
+    .dropdown-menu .dropdown-item:last-child {
+      border-bottom: none; }
+
+/* Footer */
+footer .fab {
+  font-size: 150%;
+  padding-left: 1rem; }
+
+#footer {
+  background-color: #006341 !important; }
