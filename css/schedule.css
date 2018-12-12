@@ -14,18 +14,18 @@
     list-style-type: none;
   }
   
-  .button span a {
+  .click-here-button  {
     color: #FFFFFF;
   }
 
-  .button span {
+  .click-here-button {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .button span:after {
+  .click-here-button::after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -34,12 +34,12 @@
     transition: 0.5s;
   }
   
-  .button:hover span {
+  .button:hover a {
     padding-right: 25px;
     color: #FFFFFF;
   }
   
-  .button:hover span:after {
+  .button:hover a::after {
     opacity: 1;
     right: 0;
   }
@@ -102,11 +102,10 @@ a.lightbox img {
     
     .lightbox-target {
     position: fixed;
-    /* top: -100%; */
+    left: 0;
     background: rgba(0,0,0,.7);
     width: 100%;
     opacity: 0;
-    /* position: 0; */
     -webkit-transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
