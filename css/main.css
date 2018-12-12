@@ -498,7 +498,8 @@ form {
 #page-hero {
   margin-bottom: 3rem; }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .dropdown-item:hover {
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
   color: #fff;
   background-color: #44b049; }
 
