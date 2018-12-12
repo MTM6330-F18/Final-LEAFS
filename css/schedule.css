@@ -1,5 +1,3 @@
-/*  */
-
 .button {
     border-radius: 4px;
     background-color: #919390;
@@ -102,16 +100,16 @@ a.lightbox img {
     
     .lightbox-target {
       z-index: 100;
-    position: fixed;
-    left: 0;
-    background: rgba(0,0,0,.7);
-    width: 100%;
-    opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    overflow: hidden;
+      position: fixed;
+      left: 0;
+      background: rgba(0,0,0,.7);
+      width: 100%;
+      opacity: 0;
+      -webkit-transition: opacity .5s ease-in-out;
+      -moz-transition: opacity .5s ease-in-out;
+      -o-transition: opacity .5s ease-in-out;
+      transition: opacity .5s ease-in-out;
+      overflow: hidden;
     }
     
     /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
@@ -123,8 +121,6 @@ a.lightbox img {
     left:0;
     right:0;
     bottom: 0;
-    max-height: 0%;
-    max-width: 0%;
     box-sizing: border-box;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
@@ -157,13 +153,14 @@ a.lightbox img {
     bottom: 0;
     }
     
-    .lightbox-target:target img {
-    max-height: 100%;
-    max-width: 100%;
+    .lightbox-target img {
+    width: 80%;
+    height: auto;
     }
     
     .lightbox-target:target a.lightbox-close {
     top: 60px;
+    right: 5%;
     }
 
     @media screen and (max-width: 960px) {
@@ -178,7 +175,12 @@ a.lightbox img {
     }
 
     @media screen and (max-width: 480px) {
-        .imd-schedule img {
+      .lightbox-target img {
+        width: 90%;
+        height: auto;
+        }
+
+      .imd-schedule img {
             width: 90%;
           }
           .column-02 {

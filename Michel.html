@@ -1,290 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/min/main.css" />
-    <title>Final LEAFS</title>
-  </head>
 
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand" href="overview.html">
-              <img
-                src="./img/leafs-logo.png"
-                width="45"
-                height="45"
-                alt="IMD LOGO"
-              />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="overview.html"
-                    >OVERVIEW<span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="schedules.html">SCHEDULES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="courses.html">COURSES</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    PROFESSORS
-                  </a>
-                  <div
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <a class="dropdown-item" href="Professors.html"
-                      >All the professors</a
-                    >
-                    <a class="dropdown-item" href="Katie.html">1. Katie Tremblay</a>
-                    <a class="dropdown-item" href="Michael.html"
-                      >2. Michael Eisenbraun</a
-                    >
-                    <a class="dropdown-item" href="Andrew.html"
-                      >3. Andrew Balfour</a
-                    >
-                    <a class="dropdown-item" href="Michel.html"
-                      >4. Michel Lacroix</a
-                    >
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="FAQ.html">FAQ</a>
-                </li>
-              </ul>
-              <!-- navbar-nav -->
-            </div>
-          </div>
-          <!-- container -->
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/min/main.css">
+  <link rel="stylesheet" href="css/min/professors.css">
+  <title>Final LEAFS</title>
+</head>
 
-    <section>
-      <h2>Interactive Media Design</h2>
-      <h1>Meet the Professors</h1>
-    </section>
-
+<body>
+  <!-- Navigation menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <div class="main row align-items-start">
-        <div class="teacher col-md-9 " id="">
-          <div class="teacherIntro">
-            <div class="teacherPhoto">
-              <img src="img/professors/michel.png" alt="Michel" />
-              <button><a href="Professors.html">Go back</a></button>
+      <a class="navbar-brand" href="overview.html">
+        <img src="./img/leafs-logo.png" width="45" height="45" alt="IMD LOGO" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Overview.html">OVERVIEW<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Schedule.html">SCHEDULES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              COURSES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="Course.html">All the courses</a>
+              <a class="dropdown-item" href="course01.html">1. Digital Graphics</a>
+              <a class="dropdown-item" href="course02.html">2. Web Development</a>
+              <a class="dropdown-item" href="course03.html">3. Motion Graphic</a>
             </div>
-            <div class="teacherInfor">
-              <h3>Michel Lacroix</h3>
-              <p class="email">lacroixm@algonquincollege.com</p>
-              <p>
-                  Been teaching at Algonquin college in the field of Media design for 9 years Worked at the college in Marketing and Graphic Art for 3 years Worked as a interactive media developer for health Canada for 4 years Run a modest freelance studio for 15 years.</p>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              PROFESSORS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="Professors.html">All the professors</a>
+              <a class="dropdown-item" href="Katie.html">1. Katie Tremblay</a>
+              <a class="dropdown-item" href="Michael.html">2. Michael Eisenbraun</a>
+              <a class="dropdown-item" href="Andrew.html">3. Andrew Balfour</a>
+              <a class="dropdown-item" href="Michel.html">4. Michel Lacroix</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FAQ.html">FAQ</a>
+          </li>
+        </ul>
+        <!-- navbar-nav -->
+      </div>
+    </div>
+    <!-- container -->
+  </nav>
+
+  <section>
+    <h2>Interactive Media Design</h2>
+    <h1>Meet the Professors</h1>
+  </section>
+
+  <div class="container">
+    <div class="main row align-items-start">
+      <div class="teacher col-md-9 " id="">
+        <div class="teacherIntro">
+          <div class="teacherPhoto">
+            <img src="img/professors/michel.png" alt="Michel" />
+            <button><a href="Professors.html">Go back</a></button>
           </div>
-          <div class="interview">
-            <h3>Basic Question:</h3>
-            <h4>
-                1. What made you decide to teach at Algonquin College?
-              </h4>
+          <div class="teacherInfor">
+            <h3>Michel Lacroix</h3>
+            <p class="email">lacroixm@algonquincollege.com</p>
             <p>
-                Taught some workshop before, applied for a job and got it (15 years ago)
-            </p>
-            <h4>2. What are the courses did you teach at Algonquin College?
-              </h4>
-            <p>
-                Introduction to DLSR,  
-                department = Graphic Design, E publishing, photography related                
-            </p>
-            <h4>3. Can you give me more details about the courses you’re presently teaching?
-                </h4>
-            <p>Consider it teaching how to communicate using photography with communication</p>
-            <h4>4. How hard is this program for the people who have never studied this area?</h4>
-            <p>
-              I guide you through, is structure and logical.
-            </p>
-            <h4>5. How long have you been teaching in the IMD program? So far, do you think that you made an impact on your students? 
-              </h4>
-            <p>
-                3 years in IMD, hope the impact is to prepare you for video and to make you understand how to communicate visually
-            </p>
-            <h4>6. How do you measure student performance in your classroom?
-                </h4>
-            <p>Weekly workshop, homework, 1 quiz mostly if you do the work you will be fine</p>
-            <h4>7. As a professor, what do you expect from the students?
-                </h4>
-            <p>Expect you to do the work</p>
-            <h4>8. Do you have any advice for students who want to work in a related working field? 
-                </h4>
-            <p>You would have to have a portfolio that shows not just your skills but what kind of picture your interested in taking what kind of story you can provide</p>
-            <h4>9. Compared to any College or University, what makes Algonquin College unique?
-                </h4>
-            <p>Hands-on approach, make a lot of work. Also, use the tech.</p>
-            <h4>10. Most classes have students with a wide-range of abilities. What can you do to meet the needs of students with a high range of abilities and low range of abilities at the same time?
-                </h4>
-            <p>The course is structure individually a lot of his time in his class is spent with students so that he can understand his students better, educational opportunity learner-driven plan 35 years ago, took the photography program and graduated in1983</p>
-            <h3> If you were a student:
-                </h3>
-            <h4>11. As a graduate, how did this program helped you pursue your career in the industry?
-                </h4>
-            <p>Got his first job two months after graduating and was well prepared because of his training here</p>
-            <h4>12. Compared to the time you studied in the IMD program, is there anything different in this program?
-                </h4>
-            <p>Everything</p>
-            <h4>13. What do you remember doing as a student during your time here?
-                </h4>
-            <p>As a student, working in a dark room a lot to print a picture. Learned value of it.</p>
-            <h4>14. What is the worst thing about the school system today?
-                That today students could be more proactive in their own work, taking opportunities?
-                </h4>
-            <p>One of the things that change is that students aren’t trained as seriously as they could sometimes students chose to do the studies of what they like.</p>
-            <h3>Related working field:
-                </h3>
-            <h4>15. What is important to know about working in the industry?
-                </h4>
-            <p>Being professional.</p>
-            <h4>16. What can you say to your students so that they can stand out from their competition?
-                </h4>
-            <p>Make your portfolio unique tell stories that you're passionate about.</p>
-            <h4>17. What are the necessary tools to work with?
-                </h4>
-            <p>Whatever camera is involved.</p>
-            <h4>18. Is being book smart the only way to succeed in life?
-                </h4>
-            <p>No, absolutely not.</p>
-            <h4>19. What is the hardest thing about working in the industry?
-                </h4>
-            <p>Between projects that is hard, you always what is the next project is coming from.</p>
-            
+              Been teaching at Algonquin college in the field of Media design for 9 years Worked at the college in
+              Marketing and Graphic Art for 3 years Worked as a interactive media developer for health Canada for 4
+              years Run a modest freelance studio for 15 years.</p>
+          </div>
+        </div>
+        <div class="interview">
+          <h3>Basic Question:</h3>
+          <h4>
+            1. What made you decide to teach at Algonquin College?
+          </h4>
+          <p>
+            Taught some workshop before, applied for a job and got it (15 years ago)
+          </p>
+          <h4>2. What are the courses did you teach at Algonquin College?
+          </h4>
+          <p>
+            Introduction to DLSR,
+            department = Graphic Design, E publishing, photography related
+          </p>
+          <h4>3. Can you give me more details about the courses you’re presently teaching?
+          </h4>
+          <p>Consider it teaching how to communicate using photography with communication</p>
+          <h4>4. How hard is this program for the people who have never studied this area?</h4>
+          <p>
+            I guide you through, is structure and logical.
+          </p>
+          <h4>5. How long have you been teaching in the IMD program? So far, do you think that you made an impact on
+            your students?
+          </h4>
+          <p>
+            3 years in IMD, hope the impact is to prepare you for video and to make you understand how to communicate
+            visually
+          </p>
+          <h4>6. How do you measure student performance in your classroom?
+          </h4>
+          <p>Weekly workshop, homework, 1 quiz mostly if you do the work you will be fine</p>
+          <h4>7. As a professor, what do you expect from the students?
+          </h4>
+          <p>Expect you to do the work</p>
+          <h4>8. Do you have any advice for students who want to work in a related working field?
+          </h4>
+          <p>You would have to have a portfolio that shows not just your skills but what kind of picture your
+            interested in taking what kind of story you can provide</p>
+          <h4>9. Compared to any College or University, what makes Algonquin College unique?
+          </h4>
+          <p>Hands-on approach, make a lot of work. Also, use the tech.</p>
+          <h4>10. Most classes have students with a wide-range of abilities. What can you do to meet the needs of
+            students with a high range of abilities and low range of abilities at the same time?
+          </h4>
+          <p>The course is structure individually a lot of his time in his class is spent with students so that he can
+            understand his students better, educational opportunity learner-driven plan 35 years ago, took the
+            photography program and graduated in1983</p>
+          <h3> If you were a student:
+          </h3>
+          <h4>11. As a graduate, how did this program helped you pursue your career in the industry?
+          </h4>
+          <p>Got his first job two months after graduating and was well prepared because of his training here</p>
+          <h4>12. Compared to the time you studied in the IMD program, is there anything different in this program?
+          </h4>
+          <p>Everything</p>
+          <h4>13. What do you remember doing as a student during your time here?
+          </h4>
+          <p>As a student, working in a dark room a lot to print a picture. Learned value of it.</p>
+          <h4>14. What is the worst thing about the school system today?
+            That today students could be more proactive in their own work, taking opportunities?
+          </h4>
+          <p>One of the things that change is that students aren’t trained as seriously as they could sometimes
+            students chose to do the studies of what they like.</p>
+          <h3>Related working field:
+          </h3>
+          <h4>15. What is important to know about working in the industry?
+          </h4>
+          <p>Being professional.</p>
+          <h4>16. What can you say to your students so that they can stand out from their competition?
+          </h4>
+          <p>Make your portfolio unique tell stories that you're passionate about.</p>
+          <h4>17. What are the necessary tools to work with?
+          </h4>
+          <p>Whatever camera is involved.</p>
+          <h4>18. Is being book smart the only way to succeed in life?
+          </h4>
+          <p>No, absolutely not.</p>
+          <h4>19. What is the hardest thing about working in the industry?
+          </h4>
+          <p>Between projects that is hard, you always what is the next project is coming from.</p>
+
           <!-- </div>interview section -->
         </div>
         <!-- teacher section -->
 
-        
+
       </div>
+      <!-- Sidebar section -->
       <aside class="sidebar col-md-3" id="sidebar">
         <article>
-          <h3>Program Availability</h3>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <h4>Program Availability</h4>
+          <table>
+            <tr>
+              <th>Start Dates</th>
+              <th>Availability</th>
+            </tr>
+            <tr>
+              <td>2019 Jan.</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>2019 Sept.</td>
+              <td class="open">Open</td>
+            </tr>
+            <tr>
+              <td> 2020 Jan.</td>
+              <td class="open">Open</td>
+            </tr>
+          </table>
         </article>
 
         <article>
-          <h3>Fees & Expenses</h3>
-          <p>
-            Tuition: $1,743.45 <br />
-            eText: $ 130.00
+          <h4>Fees & Expenses</h4>
+          <p>Tuition: $1,743.45 <br> eText: $ 130.00</p>
+          <p> <strong>Compulsory Ancillary Fees:</strong> <br>
+            Student Activity: $ 217.37 <br>
+            Sports: $ 72.63 <br>
+            Technology: $ 159.62 <br>
+            Transcript: $ 20.00 <br>
+            Health Services: $ 20.00 <br>
+            Student Experience: $ 18.00 <br>
+            Health Plan: $ 153.19 * <br>
+            U-Pass: $ 415.04 * <br>
+            U-Pass Admin: $ 3.42 *<br>
           </p>
-          <p>
-            <strong>Compulsory Ancillary Fees:</strong> <br />
-            Student Activity: $ 217.37 <br />
-            Sports: $ 72.63 <br />
-            Technology: $ 159.62 <br />
-            Transcript: $ 20.00 <br />
-            Health Services: $ 20.00 <br />
-            Student Experience: $ 18.00 <br />
-            Health Plan: $ 153.19 * <br />
-            U-Pass: $ 415.04 * <br />
-            U-Pass Admin: $ 3.42 *<br />
-          </p>
-          <p>
-            * Assessed once annually at the beginning of each academic year.
-          </p>
-          <p>
-            <strong
-              >International students pay all fees listed above (excluding the
-              Health Plan fee) plus:</strong
-            >
-            <br />
-            International Premium: $4,577.00 <br />
+          <p>* Assessed once annually at the beginning of each academic year.</p>
+          <p><strong>International students pay all fees listed above (excluding the Health Plan fee) plus:</strong>
+            <br>
+            International Premium: $4,577.00 <br>
             International Health Insurance: $ 696.00
           </p>
         </article>
 
         <article>
-          <h3><strong>Related Programs</strong></h3>
-          <li>
-            <a href="">Interactive Media Management >></a><br />
-            <a href=""
-              >Bachelor of Information Technology (Interactive Media
-              Development) (Co-op) >></a
-            ><br />
-            <a href="">Graphic Deisgn >></a><br />
-            <a href="">Game Developement >></a><br />
-          </li>
+          <h4>Related Programs</h4>
+          <ul>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/imm/">Interactive Media Management
+                <strong>></strong></a></li>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/bit-interactive-multimedia-and-design/">Bachelor
+                of Information Technology (Interactive Media Development) (Co-op) <strong>></strong></a></li>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/graphic-design/">Graphic Deisgn
+                <strong>></strong></a></li>
+            <li><a href="https://www.algonquincollege.com/mediaanddesign/program/game-development/">Game Developement
+                <strong>></strong></a></li>
+          </ul>
         </article>
-      </aside>
-      <!-- sidebar section -->
+      </aside> <!-- Sidebar section -->
       <!-- main -->
     </div>
+  </div>
 
-    <footer class="site-footer bg-dark pt-3 pb-3">
-      <div class="container">
-        <div class="row">
-          <p class="text-light text-center mb-1 mt-1 col-md-6">
-            All contents &copy; 2018. All rights reserved.
-          </p>
-          <section class="layout-social text-center my-1 col-md-6">
-            <a class="text-light px-1" href="www.facebook.com">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a class="text-light px-1" href="www.twitter.com">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a class="text-light px-1" href="www.linkedin.com">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a class="text-light px-1" href="www.github.com">
-              <i class="fab fa-github"></i>
-            </a>
-          </section>
-        </div>
+  <!-- Footer -->
+  <footer id="footer" class="site-footer bg-dark pt-3 pb-3">
+    <div class="container">
+      <div class="row">
+        <p class="text-light text-center mb-1 mt-1 col-md-6">All contents &copy; 2018. All rights reserved.</p>
+        <section class="layout-social text-center my-1 col-md-6">
+          <a class="text-light px-1" href="www.facebook.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a class="text-light px-1" href="www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="text-light px-1" href="www.linkedin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="text-light px-1" href="www.github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
       </div>
-    </footer>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

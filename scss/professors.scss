@@ -1,4 +1,7 @@
-section {
+@import 'normalize';
+@import 'base';
+
+.hero-title {
   background-repeat: no-repeat;
   background-image: url('../../img/professors/professors-bg.jpg');
   background-size: cover;
