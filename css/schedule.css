@@ -101,6 +101,7 @@ a.lightbox img {
     /* Styles the lightbox, removes it from sight and adds the fade-in transition */
     
     .lightbox-target {
+      z-index: 100;
     position: fixed;
     left: 0;
     background: rgba(0,0,0,.7);
