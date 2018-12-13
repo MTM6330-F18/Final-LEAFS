@@ -1,5 +1,3 @@
-// Load the main bootstrap framework.
-// @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'normalize';
 @import 'base';
 @import 'sidebar';
@@ -23,7 +21,6 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  // line-height: 3rem;
   line-height: 60px;
   padding: 0rem 2rem;
 }

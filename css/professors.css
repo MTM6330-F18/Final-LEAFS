@@ -385,7 +385,7 @@ a:hover {
       width: 25vw; }
     .teacherIntro .teacherPhoto button {
       margin: 5px auto;
-      background-color: #43b02a;
+      background-color: #44b049;
       margin-top: 20px;
       margin-bottom: 20px;
       padding: 10px; }
@@ -400,11 +400,11 @@ a:hover {
   flex-direction: column;
   align-items: center; }
   .teacherInfor h3 {
-    color: #006342;
+    color: #006341;
     font-weight: bold;
     margin: 5px auto; }
   .teacherInfor .email {
-    color: #006342;
+    color: #006341;
     margin: 5px auto; }
   .teacherInfor p {
     margin-top: 15px; }
@@ -434,4 +434,4 @@ a:hover {
     padding: 5px;
     background-color: grey; }
   .interview h4 {
-    color: #006342; }
+    color: #006341; }
