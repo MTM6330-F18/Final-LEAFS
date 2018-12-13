@@ -1,7 +1,12 @@
+// Load the main bootstrap framework.
+// @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'normalize';
 @import 'base';
 @import 'sidebar';
-@import 'form';
+@import 'schedule';
+@import 'courses';
+@import 'professors';
+@import 'FAQ';
 
 /* Navigation menu */
 .navbar {

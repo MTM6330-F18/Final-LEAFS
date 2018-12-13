@@ -350,18 +350,18 @@ a:hover {
   text-decoration: none; }
 
 .sidebar {
-  background-color: #f8f9f8;
+  background-color: #F8F9F8;
   margin-top: 30px; }
   .sidebar article ul li {
     list-style-type: square;
-    color: #66a18d; }
+    color: #66A18D; }
     .sidebar article ul li a {
       color: #000; }
       .sidebar article ul li a:hover {
         text-decoration: none;
-        color: #66a18d; }
+        color: #66A18D; }
       .sidebar article ul li a strong {
-        color: #66a18d; }
+        color: #66A18D; }
   .sidebar th, .sidebar td {
     vertical-align: top; }
     .sidebar th:nth-child(even), .sidebar td:nth-child(even) {
@@ -369,16 +369,17 @@ a:hover {
   .sidebar .open {
     color: #44b049; }
 
-#contact-form {
-  background-color: #e5efec;
-  padding: 20px;
-  margin-bottom: 30px; }
-  #contact-form .submit {
-    background-color: #006341;
-    color: #fff;
-    border-radius: 0; }
-    #contact-form .submit:hover {
-      background-color: #44b049; }
+.site-header {
+  background-image: url(https://prod-foundation-forum.s3.amazonaws.com/uploads/part/part_image/3612/lumber.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.site-header .layout-hero {
+  min-height: 40vh; }
+  .site-header .layout-hero h1, .site-header .layout-hero h2 {
+    color: white;
+    font-size: 3rem; }
 
 /* Navigation menu */
 .navbar {
