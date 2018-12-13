@@ -41,16 +41,19 @@
   .teacherPhoto {
     display: flex;
     flex-direction: column;
+
     img {
       margin: 0 auto;
       width: 25vw;
     }
+
     button {
       margin: 5px auto;
-      background-color: #43b02a;
+      background-color: $accent-color;
       margin-top: 20px;
       margin-bottom: 20px;
       padding: 10px;
+
       a {
         color: white;
         font-weight: bold;
@@ -65,15 +68,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   h3 {
-    color: #006342;
+    color: $primary;
     font-weight: bold;
     margin: 5px auto;
   }
+
   .email {
-    color: #006342;
+    color: $primary;
     margin: 5px auto;
   }
+
   p {
     margin-top: 15px;
   }
@@ -114,6 +120,6 @@
     background-color: grey;
   }
   h4 {
-    color: #006342;
+    color: $primary;
   }
 }
