@@ -1,0 +1,70 @@
+/* Global variables */
+$primary: #006341; // set the primary color to AC Green
+$primary-80: #338267; // set the primary color to AC Green @60% tint
+$primary-60: #66a18d; // set the primary color to AC Green @60% tint
+$jumbotron-bg: #e5efec; // set the Jumbotron background to AC Green @10% tint
+$accent-color: #44b049; // set the accent color to New Growth Green Green
+$hr-border-color: #909390; // set the <hr> border color to AC Charcoal @50% tint
+$sidebar-color: #f8f9f8; // set sidebar background color to AC Charcoal @2% tint
+$text-color: #000; // set the base text color
+
+/* Fonts */
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../../fonts/Gotham Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/Gotham Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../../fonts/Gotham Medium.otf")  format("opentype");
+}
+
+/* Baseline reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #feffff;
+  color: rgba(0, 0, 0, 0.78);
+  font-family: 'gotham Book', sans-serif;
+  font-size: 100%;
+  line-height: 1.64rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(0, 0, 0, 0.89);
+}
+
+h1 {
+  font-family: 'Gotham Bold', sans-serif;
+}
+
+article {
+  padding: 2rem 0.5rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
